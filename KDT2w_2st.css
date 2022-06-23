@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 3000px;
+  position: relative;
+}
+div.content{
+  display: flex;
+}
+.scroll {
+  height: 3000px;
+  width: 100px;
+  background: linear-gradient(ivory, #434343);
+  position: relative;
+  left: 20px;
+}
+.ryan {
+  background-image: url(https://mblogthumb-phinf.pstatic.net/20160127_177/krazymouse_1453865104404DjQIi_PNG/%C4%AB%C4%AB%BF%C0%C7%C1%B7%BB%C1%EE_%B6%F3%C0%CC%BE%F0.png?type=w2);
+  height: 3000px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: right;
+}
+.container {
+  width: 100%;
+  height: 70px;
+  background-color: #F7C873;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  position: fixed; 
+}
+.item{
+  height: 50px;
+  background-color: #F8F8F8;
+  color: #F7C873;
+  flex-basis: 150px;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 700;
+  margin: 0 50px;
+}
+.item:hover{
+  background-color: #434343;
+  color: #F8F8F8;
+}
+.container2{
+  width: 100%;
+  height: 70px;
+  background-color: #FAEBCD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+.item2{
+  height: 50px;
+  background-color: #F7C873;
+  flex-grow: 1;
+  border-radius: 30px;
+  line-height: 50px;
+  text-align: center;
+  flex-basis: 150px;
+  font-weight: 700;
+}
+.item2:nth-child(4){
+  flex-grow: 2;
+}
+.item2:hover{
+  background-color: #434343;
+  color: #F8F8F8;
+}
